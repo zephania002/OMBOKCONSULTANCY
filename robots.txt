@@ -1,0 +1,9 @@
+# Nexus Consultant - crawler rules
+# All crawlers (including search and AI-answer crawlers) may access the whole site.
+# To opt out of specific AI crawlers later, add a block such as:
+#   User-agent: GPTBot
+#   Disallow: /
+User-agent: *
+Allow: /
+
+Sitemap: https://www.nexusconsultant.co.ke/sitemap.xml

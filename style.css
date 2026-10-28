@@ -1663,3 +1663,13 @@ footer .soc a {
 @media(max-width:900px){.about-grid{grid-template-columns:1fr}}
 @media(max-width:760px){.diff{grid-template-columns:1fr}.diff>div{border-right:0;border-bottom:1px solid rgba(217,119,6,.22)}.diff>div:last-child{border:0}}
 @media(max-width:560px){.mv{grid-template-columns:1fr}.about-media::before{inset:-10px 10px 10px -10px}.about-card{right:8px;bottom:12px}}
+
+
+/* ===== AEO additions: overview + FAQ ===== */
+.gl-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,250px),1fr));gap:1rem;margin-top:2rem}
+.gl-card,.faq-item{background:var(--surf);border:1px solid var(--line);border-radius:16px;padding:1.25rem 1.4rem;box-shadow:var(--shadow)}
+.gl-card h3,.faq-item h3{font-size:1.12rem;margin-bottom:.45rem}
+.gl-card p,.faq-item p{margin:0;max-width:none;color:var(--muted)}
+.faq-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr));gap:1rem 1.25rem;margin-top:2rem}
+.faq-cta{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:1rem;margin-top:2rem}
+.faq-cta p{margin:0;font-weight:600;color:var(--head)}
